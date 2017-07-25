@@ -14,18 +14,12 @@ class ProductGalleryCollectionViewCell: UICollectionViewCell {
         super.init(coder: aDecoder)
     }
     @IBOutlet weak var imageView : UIImageView!
-
-}
-
-extension ProductGalleryCollectionViewCell {
-
-
-
     static func nib() -> UINib {
         return UINib(nibName: "ProductGalleryCollectionViewCell", bundle: Bundle(for: self))
     }
     
-    
+
 }
+
 
 

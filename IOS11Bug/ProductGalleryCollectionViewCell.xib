@@ -4,28 +4,23 @@
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13147.4"/>
-        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <collectionViewCell autoresizesSubviews="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="NLk-rT-1jN" customClass="ProductGalleryCollectionViewCell" customModule="Chairish" customModuleProvider="target">
-            <rect key="frame" x="0.0" y="0.0" width="157" height="232"/>
+        <collectionViewCell autoresizesSubviews="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="NLk-rT-1jN" customClass="ProductGalleryCollectionViewCell" customModule="IOS11Bug" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="180" height="180"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
             <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
-                <rect key="frame" x="0.0" y="0.0" width="157" height="232"/>
+                <rect key="frame" x="0.0" y="0.0" width="180" height="180"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <imageView autoresizesSubviews="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="CZS-6T-G0I">
-                        <rect key="frame" x="0.0" y="0.0" width="157" height="157"/>
+                        <rect key="frame" x="0.0" y="0.0" width="180" height="180"/>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <constraints>
-                            <constraint firstAttribute="width" secondItem="CZS-6T-G0I" secondAttribute="height" multiplier="1:1" priority="750" id="R0d-GL-5g4"/>
-                        </constraints>
                     </imageView>
                 </subviews>
             </view>
@@ -34,6 +29,7 @@
                 <constraint firstAttribute="trailing" secondItem="CZS-6T-G0I" secondAttribute="trailing" id="McS-f9-hF7"/>
                 <constraint firstItem="CZS-6T-G0I" firstAttribute="top" secondItem="NLk-rT-1jN" secondAttribute="topMargin" id="eUB-np-RFq"/>
                 <constraint firstItem="CZS-6T-G0I" firstAttribute="leading" secondItem="NLk-rT-1jN" secondAttribute="leading" id="qt4-M2-QRo"/>
+                <constraint firstAttribute="bottom" secondItem="CZS-6T-G0I" secondAttribute="bottom" id="v8M-CD-ZrQ"/>
             </constraints>
             <size key="customSize" width="254" height="271"/>
             <connections>

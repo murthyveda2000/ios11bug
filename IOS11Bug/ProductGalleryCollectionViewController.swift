@@ -11,10 +11,6 @@ import UIKit
 
 class ProductGalleryCollectionViewController: UICollectionViewController {
 
-  
-    /// True if the view controller has appeared and not yet disappeared, false otherwise
-    private(set) var visible = false
-
     // MARK: - UIViewController
 
     override func viewDidLoad() {
